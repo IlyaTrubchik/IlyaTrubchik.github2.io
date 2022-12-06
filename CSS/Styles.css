@@ -35,8 +35,9 @@
 }
 .navigationlist a{
     background-color:#31b090;
-    color:#217591;
+   
     font-family: "Roboto";
+    color:#9bebd7;
     font-weight: 800;
     font-size:16px;
     border-radius:10px;
@@ -45,7 +46,7 @@
 .navigationlist a:hover{
  font-size: 18px;
  text-decoration:underline;
- color:#9bebd7;
+ color:#217591;
 }
 .MainContainer{
     padding-top:10px;
@@ -85,7 +86,7 @@
     text-align: center;
     display: flex;
     flex-flow:column;
-   
+    padding-left: 30px;
     font-family: "Roboto";
     font-size:16px;
     padding-top:30px;
