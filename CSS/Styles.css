@@ -86,18 +86,60 @@
 }
 .Developer{
     width: 350px;
-    height: 400px;
+    height: 450px;
     justify-items: center;
     border-radius: 20px;
     border:1px solid #9bebd7;
     background-color:#9bebd7;
     -webkit-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
--moz-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+    -moz-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+    box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+ 
 
 }
+.Developer p{
+    text-align:center;
+    background-color: #9bebd7;
+    padding-top:20px;
+}
 .DeveloperImage{
-    margin-top:24px;
-    margin-left:24px;
+    margin-top:50px;
+    margin-left:50px;
     border-radius: 150px;
+}
+.DeveloperIcons{
+    background-color: inherit;
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+    padding-top: 20px;
+}
+.DeveloperIcons i{
+    font-size:30px;
+    background-color: inherit;
+    width:35px;
+    border-radius: 20px;
+}
+.Icons{
+    display: Flex;
+    flex-flow:row;
+    width:28%;
+    justify-content: space-between;
+    background-color: inherit;
+   
+}
+.Icons a{
+    background-color: inherit;
+    color:black;
+}
+
+.Icons i:hover{
+    font-size:33px;
+}
+.DeveloperName{
+    font-family: "Roboto";
+    font-size:20px;
+  /*  color:#268aab;*/
+    color:#217591;
+    font-weight: 700;
 }
