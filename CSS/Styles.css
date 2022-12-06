@@ -59,10 +59,11 @@
 }
 .HumanOfDay{
     display: flex;
-    height:420px;
+    height:460px;
     flex-direction: row;
     justify-content: center;
     padding-top: 20px;
+    padding-bottom: 100px;
 }
 .Human{
     width:30%;
@@ -123,6 +124,7 @@
 }
 .Developers{
     padding-top:100px;
+    padding-bottom: 100px;
     display: flex;
     flex-flow:row;
     justify-content: center;
@@ -191,4 +193,10 @@
   /*  color:#268aab;*/
     color:#217591;
     font-weight: 700;
+}
+.firstBorder{
+    height: 2px;
+    border-bottom: 2px solid #65af9d;
+    width:90%;
+    margin-left:5%;
 }
