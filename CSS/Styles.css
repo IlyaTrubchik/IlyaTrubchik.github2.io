@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color:#bcebdf;
+}
+.header-container{
+    height:50px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #31b090;
+    flex-flow:row;
+}
+.BodyContainer{
+    display: flex;
+    flex-flow:column;
+    height: 3000px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    background-color:#31b090 ;
+}
+.navigationlist{
+    display: flex;
+    justify-content: flex-start;
+    height:40%;
+    background-color:#31b090 ;
+}
+.navigationlist li{
+    display: inline;
+    padding-right: 5%;
+    width:200px;
+    background-color:#31b090 ;
+}
+.navigationlist a{
+    background-color:#31b090;
+}
+.MainContainer{
+    padding-top:10px;
+}
+.HumanOfDay{
+    display: flex;
+    height:420px;
+    flex-direction: row;
+    justify-content: center;
+}
+.Human{
+    width:30%;
+    border-right: 2px solid #959c9a; /* Параметры границы */
+    background-color: #bcebdf;
+    text-align: center;
+    
+}
+.HumanDayInfo{
+    width:30%;
+    text-align: center;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+}
+.Image{
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+}
+.DayPersonBtn{
+    border-radius: 30px;
+    width:300px;
+    background-color: #31b090;
+    text-align: center;
+    height:50px;
+    margin-top:15px;
+}
+.Developers{
+    padding-top:100px;
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+}
+.Developers-Container{
+    display: flex;
+    flex-flow:row;
+    width:80%;
+    justify-content: space-between;
+}
+.Developer{
+    width: 350px;
+    height: 400px;
+    justify-items: center;
+    border-radius: 20px;
+    border:1px solid #9bebd7;
+    background-color:#9bebd7;
+    -webkit-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+-moz-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
+
+}
+.DeveloperImage{
+    margin-top:24px;
+    margin-left:24px;
+    border-radius: 150px;
+}
