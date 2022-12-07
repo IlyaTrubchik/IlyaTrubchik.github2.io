@@ -9,6 +9,7 @@
     justify-content: flex-end;
     background-color: #31b090;
     flex-flow:row;
+    margin-bottom: 40px;
 }
 .BodyContainer{
     display: flex;
@@ -62,11 +63,12 @@
     height:460px;
     flex-direction: row;
     justify-content: center;
-    padding-top: 20px;
+    padding-top:20px;
     padding-bottom: 100px;
 }
 .Human{
     width:30%;
+    padding-top:20px;
     border-right: 2px solid #65af9d;; /* Параметры границы */
     background-color: #bcebdf;
     text-align: center;
@@ -145,8 +147,6 @@
     -webkit-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
     -moz-box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
     box-shadow: -1px 0px 13px 11px rgba(99, 197, 180, 0.6);
- 
-
 }
 .Developer p{
     text-align:center;
@@ -154,9 +154,12 @@
     padding-top:20px;
 }
 .DeveloperImage{
-    margin-top:50px;
+  margin-top:50px;
     margin-left:50px;
     border-radius: 150px;
+    text-align:center;
+    background-color: #9bebd7;
+    padding-top:20px;
 }
 .DeveloperIcons{
     background-color: inherit;
@@ -199,4 +202,24 @@
     border-bottom: 2px solid #65af9d;
     width:90%;
     margin-left:5%;
+}
+.AboutSiteContainer{
+    height:100px;
+    padding-top:40px;
+    padding-bottom:40px;
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+}
+.SiteInfo{
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size:16px;
+    text-align: center;
+    background-color: #bcebdf;
+    width:60%; 
+}
+.SiteInfo p{
+    background-color: inherit;
+    color:#217591;
 }
