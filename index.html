@@ -9,8 +9,8 @@
     <script src="https://kit.fontawesome.com/3b9078f73d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-   </head>
-<body class="BodyContainer">
+</head>
+<body  onload="DoerOfDay();" class="BodyContainer">
     <header class = "header-container">
         <nav class="navigation">
             <ul class="navigationlist">
@@ -30,14 +30,14 @@
     <h1 style="text-align:center;padding-top:40px">Деятель Дня</h1>
      <section class = "HumanOfDay">
         <div   class = "Human">
-            <h1 style="margin-bottom:5px;">Аляксандр Аляксеевіч Аляксееў</h1>
+            <h1 style="margin-bottom:5px;" id="DoerName">Аляксандр Аляксеевіч Аляксееў</h1>
             <div class = "Image">
-            <img src = "images/Aliaksandr_Aliakseyeu.png">
+            <img id = "DoerImage" src = "images/Aliaksandr_Aliakseyeu.png">
             </div>
-            <h2 style="margin-top:5px">1978-Настоящее время</h2>
+            <h2 id="DoerYears" style="margin-top:5px">1978-Настоящее время</h2>
             <button class = "DayPersonBtn">Перейти</button>
         </div>
-        <div class = "HumanDayInfo" >
+        <div id="DoerShortInfo" class = "HumanDayInfo" >
             <p>Нарадзіўся 14 лістапада 1978 года ў г. Казань, у сям’і вайскоўца. З 1979 года сям’я пераехала ў Беларусь. У 2000 годзе скончыў факультэт менеджменту Беларускага дзяржаўнага эканамічнага ўніверсітэта. У 2000 годзе ўзнагароджаны медалём Міністэрства адукацыі і навукі Расійскай Федэрацыі «За лепшую навуковую працу» сярод маладых вучоных па выніках адкрытага ўсерасійскага конкурсу. У 2004 годзе абараніў дысертацыю, прысуджана навуковая ступень кандыдата эканамічных навук.</p>
         </div>
      </section>
